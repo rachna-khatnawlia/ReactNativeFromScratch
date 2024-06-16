@@ -1,23 +1,13 @@
-//import liraries
-import React, {Component} from 'react';
-import {View, Text, StyleSheet, StatusBar} from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
+import React from 'react'
+import Image_ImageBg_Assignment from './src/assignments/13_Image_ImageBg_Assignment'
 
-// create a component
-const App = () => {
+export default function App() {
   return (
-    <View style={styles.container}>
-      <StatusBar backgroundColor={"black"} barStyle={"light-content"} hidden={true}/>
-    </View>
-  );
-};
+    <SafeAreaView style={{flex:1}}>
+      <Image_ImageBg_Assignment/>
+    </SafeAreaView>
+  )
+}
 
-// define your styles
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor:'plum'
-  },
-});
-
-//make this component available to the app
-export default App;
+const styles = StyleSheet.create({})
