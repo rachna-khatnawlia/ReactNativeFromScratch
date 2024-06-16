@@ -1,14 +1,12 @@
 //import liraries
 import React, {Component} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
-import Image_ImageBg_Assignment from './src/assignments/13_Image_ImageBg_Assignment';
-import Dimension from './src/Components/14_Dimesions';
+import {View, Text, StyleSheet, StatusBar} from 'react-native';
 
 // create a component
 const App = () => {
   return (
     <View style={styles.container}>
-      <Dimension />
+      <StatusBar backgroundColor={"black"} barStyle={"light-content"} hidden={true}/>
     </View>
   );
 };
@@ -17,7 +15,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-
+    backgroundColor:'plum'
   },
 });
 
