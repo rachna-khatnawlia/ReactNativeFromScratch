@@ -1,13 +1,11 @@
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native'
 import React from 'react'
-import Image_ImageBg_Assignment from './src/assignments/13_Image_ImageBg_Assignment'
-import Scrollview from './src/Components/17_Scrollview'
-import ButtonComp from './src/Components/18_Button'
+import BtnVsTouchOpacVsTouchHigh from './src/Components/21_BtnVsTouchOpacVsTouchHigh'
 
 export default function App() {
   return (
     <SafeAreaView style={{flex:1}}>
-      <ButtonComp/>
+      <BtnVsTouchOpacVsTouchHigh/>
     </SafeAreaView>
   )
 }
